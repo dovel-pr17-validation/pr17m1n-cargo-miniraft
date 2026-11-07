@@ -7,7 +7,7 @@ use colored::Colorize;
 use core::fmt;
 use env_logger::TimestampPrecision;
 use log::{debug, info, trace};
-use random_color::{Luminosity, RandomColor};
+use random_color::{options::Luminosity, RandomColor};
 use std::fmt::Debug;
 
 /// Level of logging
